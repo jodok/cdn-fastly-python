@@ -14,7 +14,7 @@ setup(
 	keywords = "fastly",
 	url = "https://github.com/zebrafishlabs/fastly-python",
 	packages=['fastly', 'tests'],
-    install_requires=['httplib2'],
+	install_requires=['httplib2'],
 	scripts=['bin/fastly_upload_vcl.py', 'bin/fastly_purge_url.py'],
 	long_description=read('README'),
 	classifiers=[
